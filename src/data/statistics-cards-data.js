@@ -6,48 +6,48 @@ import {
 } from "@heroicons/react/24/solid";
 
 export const statisticsCardsData = [
+  // total registered
   {
     color: "blue",
     icon: BanknotesIcon,
-    title: "Today's Money",
-    value: "$53k",
+    title: "Total Registadas",
+    value: "53",
     footer: {
       color: "text-green-500",
-      value: "+55%",
-      label: "than last week",
+      label: "Total",
     },
   },
+  // total rented
   {
     color: "pink",
     icon: UserIcon,
-    title: "Today's Users",
-    value: "2,300",
+    title: "Total Arrendadas",
+    value: "2300",
     footer: {
       color: "text-green-500",
-      value: "+3%",
-      label: "than last month",
+      label: "Arrendadas",
     },
   },
+  // total not rented
   {
     color: "green",
     icon: UserPlusIcon,
-    title: "New Clients",
-    value: "3,462",
+    title: "Total não arendadas",
+    value: "3462",
     footer: {
       color: "text-red-500",
-      value: "-2%",
-      label: "than yesterday",
+      label: "Não arendadas",
     },
   },
+  // some other
   {
     color: "orange",
     icon: ChartBarIcon,
-    title: "Sales",
-    value: "$103,430",
+    title: "Total não identificadas",
+    value: "0",
     footer: {
       color: "text-green-500",
-      value: "+5%",
-      label: "than yesterday",
+      label: "Não identificadas",
     },
   },
 ];
